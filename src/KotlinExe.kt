@@ -202,7 +202,7 @@ fun main(args : Array<String>) {
     val multiply = {num1: Int, num2: Int -> num1 * num2}
 
     println("5 * 3 = ${multiply(5,3)}")
-    //factoral "!" operator
+    //factorial "!" operator
     println("5! = ${fact(5)}")
 
 
@@ -218,8 +218,24 @@ fun main(args : Array<String>) {
         nums.forEach{n -> sum += n}
 
         return sum
+
+        //collection operators
+
+        val numList = 1..20
+        //"it" used with only one var, no need to declare
+        val evenList = numList.filter { it % 2 == 0 }
+        evenList.forEach { n -> println(n) }
+        //used with the function makeMathFunc
+        val mult3 = makeMathFunc(3)
+        println("5 * 3 = ${mult3(5)}")
+        //used with mathOnList function
+        val multiply2 = {num1: Int -> num1 * 2}
+
+        val numList2 = arrayOf(1,2,3,4,5)
+
+        mathOnList(numList2, multiply2)
     }
-    //factoral recursion
+    //factorial recursion
     fun fact(x: Int): Int{
         tailrec fun factTail(y: Int, z: Int): Int {
             if(y == 0) return z
@@ -227,6 +243,17 @@ fun main(args : Array<String>) {
         }
         return factTail(x, 1)
     }
+    //function that creates a function
+    fun makeMathFunc(num1: Int): (Int) -> Int = {num2 -> num1 * num2}
+
+    fun mathOnList(numList: Array<Int>, myFunc: (num: Int) -> Int){
+        for(num in numList){
+            println("MathOnList ${myFunc(num)}")
+        }
+    }
+
+
+
 
 
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7686b59-8655-4b4c-a000-59ab673f95e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinExe/demo/KotlinExeKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KotlinExe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KotlinExe.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="5359" />
+          <entry key="kt" value="6139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="5359" />
+          <entry key="Kotlin" value="6139" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/KotlinExe.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="205" column="26" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
+            <state relative-caret-position="244">
+              <caret line="235" column="39" lean-forward="true" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
               <folding>
                 <element signature="e#15#61#0" expanded="true" />
               </folding>
@@ -174,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547588675378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547664484589" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -243,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547484032884</updated>
-      <workItem from="1547484037414" duration="19695000" />
+      <workItem from="1547484037414" duration="23529000" />
     </task>
     <servers />
   </component>
@@ -265,7 +264,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19695000" />
+    <option name="totallyTimeSpent" value="23529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KotlinExe.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="205" column="26" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
+        <state relative-caret-position="244">
+          <caret line="235" column="39" lean-forward="true" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
           <folding>
             <element signature="e#15#61#0" expanded="true" />
           </folding>
