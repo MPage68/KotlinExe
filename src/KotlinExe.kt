@@ -125,6 +125,7 @@ fun main(args : Array<String>) {
         }
         else -> println("Go to college")
     }
+
     //Loops
 
     for (x in 1..10) {
@@ -213,7 +214,9 @@ fun main(args : Array<String>) {
         }
         return factTail(x, 1)
     }
+
     //function that creates a function
+
     fun makeMathFunc(num1: Int): (Int) -> Int = {num2 -> num1 * num2}
 
     fun mathOnList(numList: Array<Int>, myFunc: (num: Int) -> Int){
@@ -221,6 +224,8 @@ fun main(args : Array<String>) {
             println("MathOnList ${myFunc(num)}")
         }
     }
+
+    fun MathFunc(num1: Int: (Int) -> Int = {num2 -> num1 -num2}
 
 
 
